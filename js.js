@@ -1,6 +1,6 @@
-const beloeb = 1000;
+const beloeb = 2000;
 
-beregn(beloeb, (moms = 25));
-function beregn(beloeb, moms) {
+beregn(beloeb);
+function beregn(beloeb, moms = 25) {
   console.log(beloeb + (beloeb * moms) / 100);
 }
